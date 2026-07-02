@@ -1,0 +1,12 @@
+name: Integracion COntinua (CI)
+on:
+  push:
+    branches: ["main","master"]
+
+  jobs:
+    testeo:
+    runs-on: ubuntu-latest
+    
+    steps:
+      
+  
